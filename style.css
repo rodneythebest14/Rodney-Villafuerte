@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #8d474c;
+    background: linear-gradient(to right, #2a7a6d, #af7e3e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.image-item {
+    padding: 100px;
+    background-color: #362525;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 15px;
+}
+.image-item img {
+    background-color: rgba(147, 70, 150, 0.6);
+    box-shadow: 0 5px 20px rgba(45, 134, 134, 0.6);
+    border: rgb(124, 26, 26) rgb(100, 148, 45);
+    border-width: 20px;
+    border-style: ridge;
+    border-radius: 20%;
+    width: 300px;
+    height: 300px;
+}
+.header{
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header h1 {
+    font-family: 'Mr Dafoe', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(53, 122, 143);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.definition-text-item{
+    margin-left: center;
+    margin-right: center;
+    display: block;
+    
+}
+.definition-text-item p{
+    border: 2px black solid;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgb(95, 59, 29);
+}
+.text-font{
+    font-family: 'Days One', sans-serif;
+}   
+p{
+    text-align: center;
+}
